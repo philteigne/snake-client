@@ -15,4 +15,4 @@ const setupInput = function() {
   return stdin;
 };
 
-module.exports = { setupInput };
+module.exports = { setupInput, };
