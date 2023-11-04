@@ -34,6 +34,15 @@ const interpretInput = function(key) {
   if (key === 'd') {
     connection.write("Move: right");
   }
+  if (key === 'j') {
+    connection.write("Say: I'm a hungry boy");
+  }
+  if (key === 'k') {
+    connection.write("Say: i luv u :3");
+  }
+  if (key === 'l') {
+    connection.write("Say: tastes great");
+  }
 };
 
 module.exports = { setupInput, };
