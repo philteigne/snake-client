@@ -22,7 +22,6 @@ const setupInput = function(conn) {
 };
 
 // interpret user input as directional movements in the game
-
 const interpretInput = (key) => {
   connection.write(INPUT_MAP[key]);
 };
