@@ -11,10 +11,19 @@ const INPUT_MAP = {
   l: "Say: tastes great",
 };
 
+// Store inverted input map to prevent snake stoppages
+const INPUT_MAP_INVERT = {
+  w: 's',
+  a: 'd',
+  s: 'w',
+  d: 'a'
+};
+
 
 module.exports = {
   IP,
   PORT,
   PLAYER_INITIALS,
-  INPUT_MAP
+  INPUT_MAP,
+  INPUT_MAP_INVERT
 };
