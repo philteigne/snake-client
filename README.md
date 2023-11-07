@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["snek game with player joined"](/snake-server/snek.gif)
+!["snek game with player joined"](/assets/Snek.JPG)
 
 
 ## Getting Started
