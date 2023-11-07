@@ -8,11 +8,15 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["gif of snek function"](/snake-server/snek.gif)
-!["screenshot description"](#)
+!["snek game with player joined"](/snake-server/snek.gif)
 
 
 ## Getting Started
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+## Notes
+
+- I adjusted the input commands to function closer to typical snake. Pushing a directional button will move the snake in that direction until a separate input is pressed.
+- I added in functionality for the server to broadcast to all players when a new player joins, I've included the edited snek-server files for reference.
