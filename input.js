@@ -3,6 +3,7 @@ const { INPUT_MAP, INPUT_MAP_INVERT } = require('./constants');
 
 // Stores the active TCP connection object.
 let connection;
+
 let moveInterval;
 let lastInput;
 
