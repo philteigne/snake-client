@@ -1,4 +1,4 @@
-const IP = '172.25.182.136';
+const IP = 'localhost';
 const PORT = 50541;
 const PLAYER_INITIALS = "PVT";
 const INPUT_MAP = {
